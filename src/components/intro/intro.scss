@@ -1,0 +1,108 @@
+@import "../../global.scss";
+
+
+.intro{
+    background-image: url('~/public/assets/bgi.jpg');
+    background-size: 100% 100%;
+    
+    display: flex;
+    color: white;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        flex:0.5;
+        overflow: hidden;
+        align-items: center;
+
+        @include mobile{
+            align-items: flex-start;
+        }
+
+
+        .imageContainer{
+            width: 615px;
+            height: 615px;
+            background-color: lightblue;
+            
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: right;
+
+            @include mobile{
+                height: 150%;
+                
+            }
+        }
+        
+        
+    }
+
+    .right{
+
+       flex:0.5;
+       position: relative;
+       
+        .wrapper{
+            
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            
+            @include mobile {
+                padding-left: 0px;
+            
+                align-items: center;
+            }
+            
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                padding-left: 200px;
+                @include mobile {
+                    padding-left: 0px;
+                    
+                            font-size: 40px;
+                                    }
+
+            }
+            h2{padding-left: 200px;
+                font-size: 35px;
+                @include mobile {
+                        padding-left: 0px;
+                
+                        font-size: 40px;
+                    }
+
+            }
+            h3{padding-left: 200px;
+                font-size: 30px;
+                display: inline-flex;
+                @include mobile {
+                        padding-left: 0px;
+                
+                        font-size: 40px;
+                    }
+
+
+                span{
+                    padding-left: 5px;
+                    font-size: inherit;
+                    color:aquamarine
+                    
+                }
+            }
+        }
+        
+    }
+}
