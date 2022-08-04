@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/guzhanliang.github.io/static/css/main.d90f94e2.css",
-    "main.js": "/guzhanliang.github.io/static/js/main.b2d05b7f.js",
-    "static/media/pb.jpg": "/guzhanliang.github.io/static/media/pb.74f1993381e431979a7a.jpg",
-    "index.html": "/guzhanliang.github.io/index.html",
-    "main.d90f94e2.css.map": "/guzhanliang.github.io/static/css/main.d90f94e2.css.map",
-    "main.b2d05b7f.js.map": "/guzhanliang.github.io/static/js/main.b2d05b7f.js.map"
+    "main.css": "/guzhanliang/static/css/main.49ea60f0.css",
+    "main.js": "/guzhanliang/static/js/main.b2d05b7f.js",
+    "static/media/pb.jpg": "/guzhanliang/static/media/pb.74f1993381e431979a7a.jpg",
+    "index.html": "/guzhanliang/index.html",
+    "main.49ea60f0.css.map": "/guzhanliang/static/css/main.49ea60f0.css.map",
+    "main.b2d05b7f.js.map": "/guzhanliang/static/js/main.b2d05b7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90f94e2.css",
+    "static/css/main.49ea60f0.css",
     "static/js/main.b2d05b7f.js"
   ]
 }
